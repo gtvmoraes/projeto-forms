@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <form id="form-autentica">
+        <label for="usuario">Usuário</label>
+        <input type="text" name="user" id="usuario"
+        placeholder="Insira seu usuario" required> <br>
+
+        <label for="senha"> Senha</label>
+        <input type="password" name="senha" id="senha"
+        placeholder="Insira sua senha" required>
+        <br>
+        <button type="button" onclick="autenticar()">Entrar</button>
+    </form>
+
+    <p id="mensagem"></p>
+</div>
+
+</body>
+</html>

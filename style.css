@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: rgb(0, 3, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    background: rgb(0, 77, 124);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    color: #fff;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 223px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #292929;
+}
+#mensagem {
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+}
+#senha{
+    margin-left: 16px;
+}
